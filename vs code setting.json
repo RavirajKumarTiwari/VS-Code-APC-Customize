@@ -1,0 +1,423 @@
+
+
+{
+    "tabnine.experimentalAutoImports": true,
+    // "editor.fontFamily": "Fira Code",
+    "files.autoSave": "afterDelay",
+    "prettier.tabWidth": 4,
+    "editor.inlineSuggest.enabled": true,
+    "peacock.affectTabActiveBorder": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "github.copilot.advanced": {
+        "enabled": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.suggest.showIcons": false,
+    "editor.wordWrap": "on",
+    "editor.autoIndent": "advanced",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeLensFontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.guides.bracketPairs": true,
+    "editor.inlayHints.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "easycode.model": "gpt-4",
+    "github.copilot-labs.showBrushesLenses": true,
+    "git.autofetch": true,
+
+    // Fira Code font
+    // "editor.fontLigatures": true,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss19', 'ss20', 'calt'",
+    "editor.fontFamily": "'Fira Code iScript', 'Fira Code', 'Cascadia Code', 'Consolas', 'Courier New', monospace",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "comment",
+                "scope": ["comment"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Variable",
+                "scope": [
+                    "variable.language",
+                    "string.other.link.title.markdown"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Keyword Storage",
+                "scope": ["storage"], // variables let, const
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Entity",
+                "scope": ["entity.other.attribute-name", "entity.name.method"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+
+    // Don't push this on github
+    "files.exclude": {
+        "/.git": true,
+        "/.svn": true,
+        "/.hg": true,
+        "/CVS": true,
+        "/.DS_Store": true,
+        "/Thumbs.db": true,
+        "_ide_helper_models.php": true,
+        "_ide_helper*.php": true,
+        ".vscode": true,
+        ".git/logs": true,
+        ".git": true,
+        "**/.idea": true,
+        ".idea": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": false,
+        "**/.next": true,
+        "**/.husky": true,
+        "**/drizzle": true,
+        "**/dist": false,
+        "**/.todo.md": true,
+        "**/.angular": true,
+        "**/.vscode": true,
+        "**/.eslintrc.cjs": true,
+        "**/.editorconfig": true,
+        "**/.gitignore": true,
+        "**/.lintstagedrc.mjs": true,
+        "**/.markdownlint.json": true,
+        "**/.markdownlintignore": true,
+        "**/.prettierignore": true,
+        "**/bun.lockb": true,
+        "**/cspell.json": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/next-env.d.ts": true,
+        "**/postcss.config.cjs": true,
+        "**/prettier.config.js": true,
+        "**/README.md": false,
+        "**/next.config.js": true,
+        "**/tailwind.config.ts": true,
+        "**/drizzle.config.ts": true,
+        "**/migrate.ts": true,
+        "**/.env.example": true
+    },
+    "editor.fontSize": 15,
+    // "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+
+    "workbench.list.smoothScrolling": true,
+    "liveServer.settings.host": "127.0.0.7",
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.showOnStatusbar": true,
+    "liveServer.settings.ChromeDebuggingAttachment": true,
+    "editor.minimap.autohide": true,
+    "workbench.startupEditor": "none",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": "on",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "pieces.setCopilotLocation": true,
+    "aws.telemetry": false,
+    "aws.suppressPrompts": {
+        "codeWhispererNewWelcomeMessage": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.env.windows": {},
+    "console-ninja.featureSet": "Community",
+    "code-runner.runInTerminal": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.ai.experimental.provider": "openai",
+    "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+
+    // apc custimization
+
+    "apc.font.family": "'Fira Code iScript', 'Fira Code', 'Cascadia Code', 'Consolas', 'Courier New', monospace",
+    "apc.monospace.font.family": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "explorer.compactFolders": false,
+
+    // "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "classic",
+
+    // "apc.menubar.compact": true,
+    "apc.activityBar": {
+        "position": "top",
+        "hideSettings": true,
+        "size": 40,
+        "itemSize": 40,
+        "itemMargin": 0,
+        "titleBarStyle": "hiddenInset"
+    },
+    "apc.electron": {
+        "transparent": true,
+        "opacity": 1,
+        "vibrancy": "fullscreen-ui",
+        "visualEffectState": "active",
+        "frame": false,
+        "titleBarStyle": "hidden",
+        "titleBarOverlay": {
+            "color": "#191818",
+            "symbolColor": "#00000062",
+            "height": 32
+        }
+    },
+    "apc.statusBar": {
+        "position": "editor-bottom",
+        "height": 20,
+        "fontSize": 11
+    },
+    "apc.sidebar.titlebar": {
+        "height": 20
+    },
+    "apc.header": {
+        "height": 25
+    },
+    "apc.listRow": {
+        "height": 20
+    },
+    "apc.stylesheet": {
+        ".sidebar > .composite": "height: 20px ",
+        ".title-label": "display: none !important",
+        ".composite.title": "display: block !important",
+        ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: flex-end !important",
+        ".inline-tabs-placeholder": "display: none !important",
+        ".split-view-view .visible": "background-color: #23262e!important",
+        // ".titlebar-left": {
+        //     "max-width": "70px !important"
+        // },
+        ".titlebar-center": {
+            "margin": "0 !important"
+        },
+        ".action-item.menu-entry": {
+            "display": "inline !important"
+        },
+        ".monaco-inputbox": {
+            "border-radius": "6px!important"
+        },
+        ".monaco-inputbox>.ibwrapper>.input, .monaco-inputbox>.ibwrapper>.mirror": {
+            "padding": "8px 10px !important"
+        },
+        ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+            "padding": "2px !important"
+        },
+        ".container > .title": {
+            "display": "none !important"
+        },
+        // Custom CSS for command palette (Quick Input)
+        ".quick-input-widget": {
+            "position": "absolute !important",
+            "top": "200px !important",
+            "left": "50%",
+            "backdrop-filter": "blur(8px) !important",
+            "border-radius": "5px !important",
+            "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2) !important",
+            "background-color": "rgba(100, 100, 100, 0.07) !important",
+            "border": "none !important"
+        },
+        // command palette input box
+        ".quick-input-widget .quick-input-box": {
+            "border": "none !important",
+            "backdrop-filter": "blur(8px) !important",
+            "box-shadow": "0 2px 6px rgba(0, 0, 0, 0.1) !important",
+            "background-color": "rgba(100, 100, 100, 0.7) !important",
+            "border-radius": "8px !important",
+            "margin": "5px !important"
+            // "padding": "5px !important"
+        },
+        // Style for the input box when it's focused
+        ".quick-input-widget .quick-input-box:focus": {
+            "outline": "none !important",
+            "box-shadow": "0 2px 8px rgba(78, 201, 176, 0.3) !important"
+        },
+
+        // Custom CSS for inline suggestion box
+        ".monaco-editor .suggest-widget": {
+            "backdrop-filter": "blur(8px) !important", // Glass blur effect
+            "border-radius": "5px !important", // Rounded corners for smooth look
+            "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2) !important", // Soft shadow for depth
+            "background-color": "rgba(155, 155, 155, 0.07) !important", // Transparent background for glass effect
+            "border": "none !important", // Remove border completely
+            "padding": "2px !important" // Adjust padding inside the list
+        },
+        ".monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused": {
+            "background-color": "rgba(155, 155, 155, 0.2) !important", // More translucent background for focused suggestion
+            "color": "#FFFFFF !important", // Text color for focused suggestion
+            "font-weight": "bold !important", // Bold text for focused suggestion
+            "border-radius": "5px !important", // Rounded corners for smooth look
+            "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2) !important" // Soft shadow for depth
+        },
+
+        // Custom CSS for hover tooltip
+        ".monaco-editor .monaco-hover": {
+            "backdrop-filter": "blur(8px) !important",
+            "border-radius": "5px !important",
+            "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2) !important",
+            "background-color": "rgba(0, 0, 0, 0.07) !important",
+            "border": "none !important"
+        },
+        ".monaco-editor .monaco-hover .hover-contents": {
+            "color": "#FFFFFF !important",
+            "font-weight": "normal !important"
+        },
+
+        //Custom CSS for Native Tooltips
+        ".monaco-hover .hover-row": {
+            "backdrop-filter": "blur(8px) !important",
+            "border-radius": "3px !important",
+            "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2) !important",
+            "background-color": "rgba(0, 0, 0, 0.07) !important",
+            "border": "none !important"
+        },
+        ".monaco-hover .hover-contents": {
+            "color": "#FFFFFF !important",
+            "font-weight": "normal !important"
+        },
+
+        // Styles for IntelliSense suggestion box (parameter info widget)
+        ".monaco-editor .parameter-hints-widget": {
+            "backdrop-filter": "blur(8px) !important",
+            "border-radius": "5px !important",
+            "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2) !important",
+            "background-color": "rgba(0, 0, 0, 0.07) !important",
+            "border": "none !important",
+            "padding": "5px !important"
+        },
+        ".monaco-editor .parameter-hints-widget .monaco-scrollable-element": {
+            "background-color": "transparent !important"
+        },
+        ".monaco-editor .parameter-hints-widget .signature": {
+            "color": "#FFFFFF !important",
+            "font-weight": "normal !important"
+        },
+        ".monaco-editor .parameter-hints-widget .parameter": {
+            "color": "#4EC9B0 !important"
+        }
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#23262e",
+        "terminal.background": "#23262e",
+        "titleBar.activeForeground": "#c4c2c2",
+        "statusBar.foreground": "#909091",
+        "editorLineNumber.foreground": "#464a5b",
+        "statusBarItem.hoverBackground": "#23262e",
+        "focusBorder": "#23262e",
+        "editorGutter.background": "#23262e", // gutter or link no background
+        "editorGroup.border": "#23262e", // Change this to your preferred color for the editor group border
+        "terminal.border": "#23262e", // Change this to your preferred color for the terminal border
+        "sideBar.background": "#23262e", // Change this to your preferred color for the side bar background
+        "sideBar.border": "#23262e",
+
+        // Command Palette (Quick Input)
+        "quickInput.background": "#FFFFFF00", // Fully transparent to let custom CSS handle it
+        "quickInput.foreground": "#FFFFFF", // Text color
+        "quickInputTitle.background": "#2C2C2C00", // Transparent background for the title bar
+        "quickInputList.focusBackground": "#FFFFFF33", // Slightly visible focus background
+        "quickInput.list.focusForeground": "#FFFFFF", // Focused item text color
+        "quickInput.list.focusIconForeground": "#4EC9B0", // Icon color for focused items
+        // New color customizations for input box
+        "inputValidation.infoBorder": "#00000000", // Transparent border for input validation
+        "inputValidation.infoBackground": "#4EC9B033", // Slight tint for valid input
+        "input.background": "#FFFFFF10", // Slightly visible input background
+        "input.foreground": "#FFFFFF", // Input text color
+        "input.placeholderForeground": "#FFFFFF80", // Placeholder text color
+        "input.border": "#00000000", // Transparent border for input
+
+        // Inline suggestion colors
+        "editor.inlineSuggest.foreground": "#FFFFFF", // Text color for inline suggestions
+        "editorSuggestWidget.selectedForeground": "#FFFFFF", // Text color for selected suggestion
+        "editorSuggestWidget.background": "#FFFFFF0D", // Slight translucent background for suggestion box
+        "editorSuggestWidget.border": "#00000000", // Transparent border to remove it
+        "editorSuggestWidget.foreground": "#D4D4D4", // Text color for non-selected suggestions
+
+        // Hover Tooltip
+        "editorHoverWidget.background": "#696d7a00", // Fully transparent to let custom CSS handle it
+        "editorHoverWidget.border": "#00000000", // Transparent border
+        "editorHoverWidget.foreground": "#FFFFFF", // Text color for hover content
+        "editorHoverWidget.highlightForeground": "#4EC9B0", // Highlight color for links or important text
+        "editorHoverWidget.statusBarBackground": "#696d7a80", // Semi-transparent background for the status bar in hover widget
+        // "editor.lineHighlightBackground": "#FFFFFF0A",
+        // "editorLineNumber.activeForeground": "#FFFFFF80",
+
+        "terminal.intregated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace"
+    },
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Andromeda",
+    "workbench.activityBar.location": "top",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false
+}
